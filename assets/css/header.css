@@ -1,0 +1,44 @@
+header{
+    background-color: dimgray;
+    height: 50px;
+    margin-top: -8px;
+    width: auto;
+    margin-left: -10px;
+    margin-right: -10px;
+    box-shadow: 1px 1px 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+header div{
+    background-color: dimgray;
+    width: 960px;
+    margin: 0 auto;
+    height: 50px;
+
+}
+header h1{
+    float:  left;
+    margin: 0;
+    background-color: #00ccff;
+    color:dimgray;
+    height: 50px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    /* text-shadow: 1px 1px 3px black; */
+}
+nav{
+    
+    margin: 0;
+    background-color: dimgray;
+    height: 50px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    position: relative;
+    float: right;
+
+}
+nav a{
+    padding-left: 15px;
+    text-decoration: none;
+    color: #00ccff;
+    /* text-shadow: 1px 1px 1px  lightgrey; */
+}

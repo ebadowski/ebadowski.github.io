@@ -1,0 +1,47 @@
+.portfolio-item{
+    width: 300px;
+    height: 300px;
+    background-color: gainsboro;
+    background-size: cover;
+    /* float: left; */
+    margin: 1em;
+}
+
+/* Project Image Squares */
+#portfolio1{
+    background-image: url("../images/coming\ soon.jpg");
+}
+#portfolio2{
+    background-image: url("../images/coming\ soon.jpg");
+}
+#portfolio3{
+    background-image: url("../images/coming\ soon.jpg");
+}
+#portfolio4{
+    background-image: url("../images/coming\ soon.jpg");
+}
+#portfolio5{
+    background-image: url("../images/coming\ soon.jpg");
+}
+
+/* Text Banner */
+.portfolio-item h4{
+    position: relative;
+    bottom: -210px;
+    background-color: rgb(87, 87, 87, .75);
+    width: 300px;
+    text-align: center;
+    padding: .5em 0;
+    font-size: 2em;
+    margin: 0;
+    font-variant: small-caps;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body{
+    background-image: url("../images/triangular_@2X.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
